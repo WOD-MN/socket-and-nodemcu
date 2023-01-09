@@ -2,7 +2,7 @@
 #define PORT 5055
 
 // WiFi Settings
-const char* SSID = "asachin_fctwn_2";
+const char* SSID = "asachin_fctwn_2"; // use wifi manager library to make this ssid and pass dynamic instead of hardcoding
 const char* PASSWORD = "CLEB12F6EF";
 
 WiFiServer server(PORT);
